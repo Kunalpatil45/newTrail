@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.coming-soon
+{
+    
+    height: 100px;
+    width: 100%;
+    font-size: 35px;
+    margin-top: 5%;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .coming-soon
+    {
+        margin-top:  5%;
+        height: 40px;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
