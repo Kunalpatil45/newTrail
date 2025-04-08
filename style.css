@@ -136,6 +136,17 @@ button{
     border: none;
 }
 
+
+
+
+.oranges
+{
+    display: none;
+    position: absolute;
+    background-color: #c82020;
+    opacity: 0.3;
+}
+
 @media (max-width: 500px){
     .main{
         flex-direction: column;
